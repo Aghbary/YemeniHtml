@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Log-in
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/sign.css">
+</head>
+
+<body>
+    <header>
+        <p class="head" id="smaller">
+            Log-in
+        </p>
+        <hr class="hr1"/>
+    </header>
+    <article>
+        <section>
+            <div id="margin">
+            <form method="POST" action="../pages/home2.html" target="_parent" name="log-in">
+                <p class="s-text">Email:</p>
+                <input title="Enter your Email account" type="email" name="email" value=""
+                    placeholder="example@example.com" autofocus required />
+                    <!--Above, the "autofocus" attribute doesn't work until this page is opened in a new tab-->
+
+                <p class="s-text">Password:</p>
+                <input minlength="8" title="Enter your password" type="password" name="password" value="" required />
+
+                <input type="submit" title="Log-in" name="log_in" value="Log-in"
+                    class="sign" id="log"/>
+            </form>
+            </div>
+        </section>
+    </article>
+</body>
+
+</html>

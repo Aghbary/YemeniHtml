@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Drawing with HTML</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/svg.css">
+</head>
+
+<body>
+    <header>
+        <p class="head">
+            Drawing with HTML
+        </p>
+        <hr class="hr1"/>
+    </header>
+    <article>
+        <section>
+            <p class="text"> 
+                Drawing with <span class="bu">html</span> uses the "svg" and the "canvas" elements.<br /><br />
+                The <span class="bu">html</span> "svg" element is a container for <span class="bu">svg</span> graphics. <span class="bu">svg</span> has several<br />
+                methods for drawing paths, boxes, circles, text, and graphic images.<br /><br />
+                <span class="s-text">Resource:
+                <a title="W3schools" href="https://www.w3schools.com/html/html5_svg.asp"
+                    target="_blank">w3schools.com</a></span>
+            </p>
+            <hr class="hr2"/>
+        </section>
+
+        <br />
+
+        <section>
+            <p class="head">
+                Examples&nbsp;:-
+            </p>
+            <hr class="hr3"/>
+        </section>
+
+        <section>
+            <svg class="y-flag">
+                <polygon points="0 0, 350 0, 350 210, 0 210" class="white"/>
+                <polygon points="0 0, 350 0, 350 70, 0 70" class="red"/>
+                <polygon points="0 140, 350 140, 350 210, 0 210" class="black"/>
+                <polyline class="y-flag-stroke" points="0 0, 350 0, 350 210, 0 210,0 0" />
+            </svg>
+
+            <svg class="clock">
+                <circle cx="110" cy="108" r="60" class="clock-stroke"/>
+                <polyline class="clock-stroke" points="150 108,110 108,110 68" />
+                <polyline class="clock-stroke" points="140 118,150 108,140 98" />
+                <polyline class="clock-stroke" points="100 78,110 68,120 78" />
+            </svg>
+
+            <svg class="stairs">
+                <line x1="0" y1="50" x2="50" y2="50" class="stairs-l"></line>
+
+                <line x1="50" y1="0" x2="50" y2="50" class="stairs-l">
+                    <animate attributename="y1" dur="1s" fill="freeze" from="0" to="50" />
+                    <animate attributename="y2" dur="1s" fill="freeze" from="50" to="100" />
+                </line>
+
+                <line x1="0" y1="100" x2="50" y2="100" class="stairs-l">
+                    <animate attributename="x1" fill="freeze" dur="1.5s" from="0" to="50" />
+                    <animate attributename="x2" fill="freeze" dur="1.5s" from="50" to="100" />
+                </line>
+
+                <line x1="100" y1="50" x2="100" y2="100" class="stairs-l">
+                    <animate attributename="y1" dur="2s" fill="freeze" from="50" to="100" />
+                    <animate attributename="y2" dur="2s" fill="freeze" from="100" to="150" />
+                </line>
+
+                <line x1="50" y1="150" x2="100" y2="150" class="stairs-l">
+                    <animate attributename="x1" dur="2.5s" fill="freeze" from="50" to="100" />
+                    <animate attributename="x2" dur="2.5s" fill="freeze" from="100" to="150" />
+                </line>
+
+                <line x1="150" y1="100" x2="150" y2="150" class="stairs-l">
+                    <animate attributename="y1" fill="freeze" dur="3s" from="100" to="150" />
+                    <animate attributename="y2" fill="freeze" dur="3s" from="150" to="200" />
+                </line>
+            </svg>
+
+            <svg class="squares">
+                <polygon points="0 0, 220 0, 220 210, 0 210" class="squares-sb" id="sb3"/>
+                <polygon points="20 20, 210 20, 210 200, 20 200" class="squares-sw"/>
+                <polygon points="40 40, 200 40, 200 190, 40 190" class="squares-sb"/>
+                <polygon points="60 60, 190 60, 190 180, 60 180" class="squares-sw"/>
+                <polygon points="80 80, 180 80, 180 170, 80 170" class="squares-sb"/>
+                <polygon points="100 100, 170 100, 170 160, 100 160" class="squares-sw"/>
+                <polygon points="120 120, 160 120, 160 150, 120 150" class="squares-sb"/>
+                <polyline class="squares-sb" points="0 0, 120 120" />
+                <polyline class="squares-sb" points="0 210, 120 150" />
+                <polyline class="squares-sb" points="220 0, 160 120" />
+                <polyline class="squares-sb" points="220 210, 160 150" />
+            </svg>
+
+            <svg class="traffic">
+                <polygon points="10 40, 135 40, 135 240, 10 240" class="t-poly"/>
+                <circle cx="73" cy="75" r="30" class="red"/>
+                <circle cx="73" cy="140" r="30" class="yellow"/>
+                <circle cx="73" cy="205" r="30" class="green"/>
+            </svg>
+            <br />
+            <svg class="eye1">
+                <circle cx="90" cy="85" r="60" class="clock-stroke"/>
+                <circle cx="90" cy="85" r="35" class="eye1-g"/>
+                <circle cx="90" cy="85" r="13" class="black"/>
+                <circle cx="100" cy="75" r="6" class="white"/>
+            </svg>
+
+            <svg class="y-flag">
+                <rect x="20" y="20" class="j-flag"/>
+                <circle cx="175" cy="108" r="50" class="red"/>
+                <polyline class="clock-stroke" points="0 0,350 0,350 210,0 210,0 0" />
+            </svg>
+
+            <svg class="ea">
+                <line x1="55" y1="60" x2="70" y2="150" class="ea-line"/>
+                <line x1="60" y1="105" x2="125" y2="105" class="ea-line"/>
+                <line x1="53" y1="60" x2="118" y2="60" class="ea-line"/>
+                <line x1="68" y1="150" x2="132" y2="150" class="ea-line"/>
+                <line x1="131" y1="151" x2="178" y2="60" class="ea-line"/>
+                <line x1="176" y1="60" x2="223" y2="151" class="ea-line"/>
+                <line x1="155" y1="105" x2="200" y2="105" class="ea-line"/>
+            </svg>
+
+            <svg class="y-flag">
+                <ellipse cx="153" cy="105" rx="150" ry="60" class="eye2"/>
+                <circle cx="153" cy="105" r="50" class="eye2" id="eye2">
+                    <animate attributename="cx" values="153; 200; 106; 153" dur="3s" fill="freeze"
+                        repeatcount="indefinite" />
+                </circle>
+                <circle cx="153" cy="105" r="20" class="black">
+                    <animate attributename="cx" values="153; 230; 76; 153" dur="3s" fill="freeze"
+                        repeatcount="indefinite" />
+                </circle>
+                <circle cx="166" cy="93" r="8" class="white">
+                    <animate attributename="cx" values="166; 215; 89; 166" dur="3s" fill="freeze"
+                        repeatcount="indefinite" />
+                </circle>
+            </svg>
+            <br />
+            <svg class="polygon">
+                <polygon class="eye2" id="polygon"
+                    points="2 50, 125 2, 248 50, 248 248, 124 200, 0 248, 2 50" />
+            </svg>
+
+            <svg class="triangle">
+                <polygon class="clock-stroke" id="triangle" points="125 2, 248 248, 0 248" />
+                <polygon class="squares-sb" points="124 248, 180 110, 70 110" />
+            </svg>
+
+            <svg class="y-flag">
+                <ellipse cx="175" cy="95" rx="120" ry="50" class="solar"/>
+                <circle cx="175" cy="93" r="62" class="sun"/>
+                <circle cx="245" cy="135" r="8" class="black"/>
+                <polyline class="solar" points="137 143, 175 145, 213 143" />
+            </svg>
+
+            <svg class="click">
+                <polygon points="70 0, 0 0, 0 200, 70 200, 70 180, 20 180, 20 20, 70 20">
+                    <animate attributename="fill"
+                        values="#eb4034; #eb8034; #ebe834; #83eb34; #34eb46; #34ebab; #34c3eb; #3471eb; #a134eb; #eb34db; #eb3461; #eb3434"
+                        fill="freeze" repeatcount="indefinite" dur="5s" />
+                </polygon>
+
+                <polygon class="black" points="75 0, 75 200, 145 200, 145 180, 95 180, 95 0">
+                    <animate attributename="fill"
+                        values="#eb4034; #eb8034; #ebe834; #83eb34; #34eb46; #34ebab; #34c3eb; #3471eb; #a134eb; #eb34db; #eb3461; #eb3434"
+                        fill="freeze" repeatcount="indefinite" dur="5s" />
+                    <animate attributename="points" dur="1s" fill="freeze"
+                        from="75 0, 75 200, 145 200, 145 180, 95 180, 95 0"
+                        to="0 0, 0 200, 70 200, 70 180, 20 180, 20 0" begin="click" />
+                </polygon>
+
+                <polygon class="black"
+                    points="150 0, 220 0, 220 20, 195 20, 195 180, 220 180, 220 200, 150 200, 150 180, 175 180, 175 20, 150 20">
+                    <animate attributename="fill"
+                        values="#eb4034; #eb8034; #ebe834; #83eb34; #34eb46; #34ebab; #34c3eb; #3471eb; #a134eb; #eb34db; #eb3461; #eb3434"
+                        fill="freeze" repeatcount="indefinite" dur="5s" />
+                    <animate attributename="points" dur="1.5s" fill="freeze"
+                        from="150 0, 220 0, 220 20, 195 20, 195 180, 220 180, 220 200, 150 200, 150 180, 175 180, 175 20, 150 20"
+                        to="0 0, 70 0, 70 20, 45 20, 45 180, 70 180, 70 200, 0 200, 0 180, 25 180, 25 20, 0 20"
+                        begin="click" />
+                </polygon>
+
+                <polygon class="black" points="295 0, 225 0, 225 200, 295 200, 295 180, 245 180, 245 20, 295 20">
+                    <animate attributename="fill"
+                        values="#eb4034; #eb8034; #ebe834; #83eb34; #34eb46; #34ebab; #34c3eb; #3471eb; #a134eb; #eb34db; #eb3461; #eb3434"
+                        fill="freeze" repeatcount="indefinite" dur="5s" />
+                    <animate attributename="points" fill="freeze" dur="2s"
+                        from="295 0, 225 0, 225 200, 295 200, 295 180, 245 180, 245 20, 295 20"
+                        to="70 0, 0 0, 0 200, 70 200, 70 180, 20 180, 20 20, 70 20" begin="click" />
+                </polygon>
+
+                <polygon class="black"
+                    points="300 0, 320 0, 320 70, 370 40, 400 40, 320 90, 390 200, 370 200, 320 120, 320 200, 300 200">
+                    <animate attributename="fill"
+                        values="#eb4034; #eb8034; #ebe834; #83eb34; #34eb46; #34ebab; #34c3eb; #3471eb; #a134eb; #eb34db; #eb3461; #eb3434"
+                        fill="freeze" repeatcount="indefinite" dur="5s" />
+                    <animate attributename="points" dur="2.5s" fill="freeze"
+                        from="300 0, 320 0, 320 70, 370 40, 400 40, 320 90, 390 200, 370 200, 320 120, 320 200, 300 200"
+                        to="50 0, 70 0, 70 70, 123 40, 150 40, 70 90, 152 200, 130 200, 70 120, 70 200, 50 200"
+                        begin="click" />
+                </polygon>
+            </svg>
+
+            <br />
+
+            <svg class="rotate">
+                <path d="M 10 120 Q 0 0 120 10" class="solar"/>
+                <path d="M 130 240 Q 250 250 240 130" class="solar"/>
+                <path d="M 20 110 Q 20 20 110 20" class="solar"/>
+                <path d="M 140 230 Q 230 230 230 140" class="solar"/>
+                <path d="M 30 100 Q 40 40 100 30" class="solar"/>
+                <path d="M 150 220 Q 210 210 220 150" class="solar"/>
+                <path d="M 40 90 Q 55 55 90 40" class="solar"/>
+                <path d="M 160 210 Q 195 195 210 160" class="solar"/>
+
+                <path d="M 130 10 Q 250 0 240 120" class="solar"/>
+                <path d="M 10 130 Q 0 250 120 240" class="solar"/>
+                <path d="M 140 20 Q 230 20 230 110" class="solar"/>
+                <path d="M 20 140 Q 20 230 110 230" class="solar"/>
+                <path d="M 150 30 Q 210 40 220 100" class="solar"/>
+                <path d="M 30 150 Q 40 210 100 220" class="solar"/>
+                <path d="M 160 40 Q 195 55 210 90" class="solar"/>
+                <path d="M 40 160 Q 55 195 90 210" class="solar"/>
+
+                <polygon points="125 20, 230 125, 125 230, 20 125" class="rotate-r">
+                    <animate attributename="points" dur="1s" fill="freeze" from="125 20, 230 125, 125 230, 20 125"
+                        to="230 125, 125 230, 20 125, 125 20" repeatcount="indefinite" />
+                </polygon>
+            </svg>
+
+            <svg class="half">
+                <path d="M 0 105 A 20 20, 0, 0 1, 150 105" class="half-a">
+                    <animate attributename="d" dur="2s" fill="freeze" from="M 0 105 A 20 20, 0, 0 1, 150 105"
+                        to="M 130 105 A 20 20, 0, 0 1, 170 105" begin="click" />
+                </path>
+
+                <path d="M 150 105 A 20 20, 0, 0 0, 300 105" class="half-a">
+                    <animate attributename="d" dur="2s" fill="freeze" from="M 150 105 A 20 20, 0, 0 0, 300 105"
+                        to="M 130 105 A 20 20, 0, 0 0, 170 105" begin="click" />
+                </path>
+                <text x="73" y="125" class="anchor">Click</text>
+                <text x="225" y="95" class="anchor">Click</text>
+            </svg>
+
+            <svg class="ea">
+                <line x1="50" y1="80" x2="20" y2="80" class="ninja">
+                    <animate dur="0.7s" fill="freeze" attributename="x2" values="20; 0; 20" repeatcount="indefinite" />
+                </line>
+                <line x1="65" y1="115" x2="40" y2="115" class="ninja">
+                    <animate dur="0.8s" fill="freeze" attributename="x2" values="40; 20; 40" repeatcount="indefinite" />
+                </line>
+                <line x1="50" y1="150" x2="20" y2="150" class="ninja">
+                    <animate dur="0.6s" fill="freeze" attributename="x2" values="20; 0; 20" repeatcount="indefinite" />
+                </line>
+                <polygon points="45 105, 140 85, 160 0, 180 85, 275 105, 180 125, 160 210, 140 125" class="ninja-s">
+                    <animate dur="0.2s" fill="freeze" attributename="points"
+                        from="45 105, 140 85, 160 0, 180 85, 275 105, 180 125, 160 210, 140 125"
+                        to="160 0, 180 85, 275 105, 180 125, 160 210, 140 125, 45 105, 140 85"
+                        repeatcount="indefinite" />
+                </polygon>
+            </svg>
+
+            <svg class="ea">
+                <circle cx="150" cy="105" r="75" class="emoji"/>
+                <circle cx="123" cy="85" r="6" class="black"/>
+                <circle cx="173" cy="85" r="6" class="black"/>
+                <path d="M 123 120 Q 148 140 173 120" class="emoji-str"/>
+                <circle cx="123" cy="85" r="2" class="white"/>
+                <circle cx="173" cy="85" r="2" class="white"/>
+            </svg>
+        </section>
+
+        <section>
+            <hr class="hr4"/>
+            <hr class="hr5"/>
+            <p class="head" id="head-center">
+                Have you got any SVG works?
+            </p>
+            <p class="text" id="text-center">Send us the code of it, so we can add it to this list</p>
+            <form method="POST" action="../pages/svg_send_disabled.html" name="file_send" target="_self">
+                <div>
+                    <input title="Choose a file" type="file" name="svg_file" value="" required />
+                    <input title="Send file" type="submit" name="send" value="Send" />
+                </div>
+            </form>
+        </section>
+    </article>
+    <hr class="hr5"/>
+    <p class="s-text" id="s-text-center">
+            <span class="color">(</span>The form above doesn't work<span class="color">)</span>
+    </p>
+    <footer>
+        <hr class="hr5"/>
+        <hr class="hr6"/>
+        <p class="head" id="head-center">
+            Back to <a title="Home page" href="../pages/home.html" target="_self">Home</a>
+        </p>
+        <hr class="hr6"/>
+        <hr class="hr5" id="hr5"/>
+    </footer>
+
+</body>
+
+</html>

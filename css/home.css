@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+.head {
+    font-family: 'Montserrat','Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #4b586e;
+}
+
+.description {
+    font-family: inherit;
+    color: black;
+    font-size: 0.8rem;
+    text-align: inherit;
+    font-weight: 600;
+    border-bottom: 2px solid #4b586e;
+    padding-bottom: 6px;
+}
+
+hr.w15 {
+    width: 207.5px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+}
+
+hr.w16 {
+    margin-right: 100%;
+    width: 216px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+}
+
+.nav {
+    list-style-type: disc;
+    list-style-position: outside;
+    font-family: 'Arial', 'Montserrat', sans-serif;
+}
+
+.sub-head {
+    text-align: left;
+    font-family: 'Raleway', 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #4b586e;
+}
+
+.text {
+    font-family: Arial, 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.youtube {
+    width: 60%;
+    height: 450.66021126760563px;
+    max-width: 60%;
+    max-height: 450.66021126760563px;
+    min-width: 60%;
+    min-height: 115.5px;
+}
+
+.s-text {
+    font-family: Arial, 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    text-align: justify;
+}
+
+hr.w17 {
+    width: 229.5px;
+    height: 2px;
+    margin-right: 100%;
+    background-color: #4b586e;
+    border: none;
+}
+
+a img {
+    margin-right: 40%;
+    margin-bottom: -10px;
+    padding: 0px;
+    width: 60%;
+    height: 42%;
+    max-width: 60%;
+    max-height: 42%;
+    min-width: 60%;
+    min-height: 115.5px;
+}
+
+#smaller {
+    font-size: 0.84rem;
+}
+
+.svg {
+    width: 100px;
+    height: 100px;
+}
+
+.white-c {
+    fill: white;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.red-c {
+    fill: red;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.black-c {
+    fill: black;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.width {
+    width: 90px;
+    max-width: 90px;
+    min-width: 6.588579795021962vw;
+}
+
+hr.w30 {
+    width: 405px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+    margin: auto;
+}
+
+#margin-top {
+    margin-top: 35px;
+}
+
+#center {
+    text-align: center;
+}
+
+.nasr {
+    font-weight: bold;
+    font-style: normal;
+}
+
+#flag-h {
+    text-align: left;
+    font-size: 1.273rem;
+}
+
+.flag {
+    width: 400px;
+    height: 210px;
+}
+
+polygon.wh {
+    fill: white;
+}
+
+polygon.red {
+    fill: red;
+}
+
+polygon.black {
+    fill: black;
+}
+
+polyline.stroke {
+    stroke: black;
+    fill: none;
+    stroke-width: 1px;
+}

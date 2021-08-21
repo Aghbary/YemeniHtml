@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Josefin+Sans:wght@300&display=swap');
+
+.t-welcome {
+    border: 1px solid #4b586e;
+    border-collapse: collapse;
+    width: 30.5%;
+    height: 16vh;
+    margin: auto;
+}
+
+.div-welcome {
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    color: #4b586e;
+    font-family: 'Josefin Sans', 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.next-button {
+    width: 70px; 
+    height: 30px;
+}
+
+hr.w10 {
+    width: 10%;
+    height: 1px;
+    margin: auto;
+    background-color: #4b586e;
+    border: none;
+}
+
+hr.w20 {
+    width: 20%;
+    height: 1px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #4b586e;
+    border: none;
+}
+
+#margin-t {
+    margin-top: 15%;
+}

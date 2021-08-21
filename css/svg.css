@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+.head {
+    text-align: left;
+    font-family: 'Raleway', 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #4b586e;
+}
+#head-center {
+    text-align: center;
+}
+
+hr.hr1 {
+    width: 190.5px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+    margin-right: 86%;
+}
+
+.text {
+    font-family: Arial, 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+#text-center {
+    text-align: center;
+}
+
+span.bu {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.s-text {
+    font-family: Arial, 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    text-align: justify;
+}
+
+#s-text-center {
+    text-align: center;
+    font-size: 0.77rem;
+}
+
+hr.hr2 {
+    width: 324px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+    margin-right: 76%;
+}
+
+hr.hr3 {
+    width: 148.5px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+    margin-right: 89%;
+}
+
+.y-flag {
+    width: 350px;
+    height: 210px;
+}
+
+.y-flag-stroke {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+.clock {
+    width: 200px;
+    height: 210px;
+}
+
+.clock-stroke {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.stairs {
+    width: 180px;
+    height: 210px;
+}
+
+.stairs-l {
+    fill: none;
+    stroke: #eb8034;
+    stroke-width: 3px;
+}
+
+.squares {
+    width: 290px;
+    height: 210px;
+}
+
+.squares-sb {
+    fill: black;
+    stroke: black;
+    stroke-width: 2px;
+}
+
+#sb3 {
+    stroke-width: 3px;
+}
+
+.squares-sw {
+    fill: white;
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.traffic {
+    width: 220px;
+    height: 250px;
+}
+
+.t-poly {
+    fill: black;
+    stroke: black;
+    stroke-width: 7px;
+}
+
+.eye1 {
+    width: 220px;
+    height: 215px;
+}
+
+.j-flag {
+    width: 350px;
+    height: 230px;
+    fill: white;
+}
+
+.ea {
+    width: 300px;
+    height: 210px;
+}
+
+.ea-line {
+    fill: none;
+    stroke: #ff0a27;
+    stroke-width: 6px;
+}
+
+.eye2 {
+    fill: white;
+    stroke: black;
+    stroke-width: 3px;
+}
+
+#eye2 {
+    fill: #40e6dd;
+}
+
+.polygon {
+    width: 270px;
+    height: 250px;
+}
+
+#polygon {
+    fill: #5b76f0;
+}
+
+.triangle {
+    width: 250px;
+    height: 250px;
+}
+
+#triangle {
+    stroke-width: 4px;
+}
+
+.solar {
+    fill: none;
+    stroke: black;
+    stroke-width: 3px;
+}
+
+.click {
+    width: 400px;
+    height: 210px;
+}
+
+.rotate {
+    width: 270px;
+    height: 250px;
+}
+
+.rotate-r {
+    fill: rgb(41, 221, 101);
+    stroke: rgb(41, 221, 101);
+    stroke-width: 3px;
+}
+
+.half {
+    width: 320px;
+    height: 210px;
+}
+
+.half-a {
+    fill: tomato;
+    stroke: rgb(182, 50, 26);
+    stroke-width: 3px;
+}
+
+.anchor {
+    text-anchor: middle;
+}
+
+.ninja {
+    fill: none;
+    stroke: black;
+    stroke-width: 2.5px;
+}
+
+.ninja-s {
+    fill: darkslategray;
+    stroke: black;
+    stroke-width: 3px;
+}
+
+.emoji {
+    fill: #fbff26;
+    stroke: black;
+    stroke-width: 5px;
+}
+
+.emoji-str {
+    fill: none;
+    stroke: black;
+    stroke-width: 6px;
+}
+
+hr.hr4 {
+    width: 326.5px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+    margin: auto;
+}
+
+hr.hr5 {
+    width: 240px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+}
+
+hr#hr5 {
+    margin-top: 8px;
+}
+
+form div {
+    margin-bottom: 23px;
+    text-align: center;
+}
+
+hr.hr6 {
+    width: 216px;
+    height: 2px;
+    background-color: #4b586e;
+    border: none;
+}
+
+.send-another {
+    text-align: center;
+    font-family: Arial, 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+}
+
+.white {
+    fill: white;
+}
+
+.red {
+    fill: red;
+}
+
+.black {
+    fill: black;
+}
+
+.yellow {
+    fill: yellow;
+}
+
+.green {
+    fill: green;
+}
+
+.eye1-g {
+    fill: #0d8f29;
+}
+
+.sun {
+    fill: hsl(51, 100%, 59%);
+}
+
+.color {
+    color: #4b586e;
+}

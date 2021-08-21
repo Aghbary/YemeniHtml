@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Yemeni national flag</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+</head>
+
+<body>
+    <header>
+        <p class="head" id="flag-h">
+            The correct answer is
+        </p>
+        <hr class="w16"/>
+    </header>
+
+    <svg class="svg">
+        <circle cy="50" cx="50" r="40" class="white-c"/>
+    </svg>
+    <svg height="100" width="100">
+        <circle cy="50" cx="50" r="40" class="black-c"/>
+    </svg>
+    <svg height="100" width="100">
+        <circle cy="50" cx="50" r="40" class="red-c"/>
+    </svg>
+
+    <table>
+        <tr>
+            <td>
+                <form method="POST">
+                    <input type="number" name="position" value="2" class="width" readonly />
+                    <input type="number" name="position" value="3" class="width" readonly />
+                    <input type="number" name="position" value="1" class="width" readonly />
+                </form>
+            </td>
+        </tr>
+    </table>
+    <hr class="w16"/>
+
+    <header>
+        <p class="head" id="flag-h">
+            This is how it looks
+        </p>
+        <hr class="w16"/>
+    </header>
+    <svg class="flag">
+        <polygon points="0 70, 400 70, 400 140, 0 140" class="wh"/>
+        <polygon points="0 0, 400 0, 400 70, 0 70" class="red"/>
+        <polygon points="0 140, 400 140, 400 210, 0 210" class="black"/>
+        <polyline points="0 0,400 0,400 210,0 210,0 0" class="stroke"/>
+    </svg>
+
+</body>
+
+</html>
