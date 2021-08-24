@@ -138,3 +138,8 @@ a:hover {
 a:active {
     color: red;
 }
+
+.input {
+    width: 170px;
+    height: 17px;
+}
