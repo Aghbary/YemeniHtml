@@ -69,6 +69,12 @@ fieldset {
     cursor: pointer;
 }
 
+.disabled {
+    width: 80px;
+    height: 30px;
+    cursor: default;
+}
+
 a:link {
     text-decoration: underline;
     color: #4b586e;

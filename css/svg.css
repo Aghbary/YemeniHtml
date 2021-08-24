@@ -334,3 +334,7 @@ a:active {
 .cursor {
     cursor: pointer;
 }
+
+.dis {
+    cursor: default;
+}
