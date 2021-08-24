@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
+body {
+    cursor: auto;
+}
+
 .head {
     font-family: 'Raleway', 'Montserrat', sans-serif;
     font-weight: 600;
@@ -117,4 +121,23 @@ div iframe {
 .select {
     width: 176px;
     height: 21px;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #4b586e;
+    border: none;
+    outline: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: rgb(92, 40, 92);
+}
+
+a:active {
+    color: red;
 }

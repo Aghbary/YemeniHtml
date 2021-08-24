@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
+body {
+    cursor: auto;
+}
+
 .head {
     font-family: 'Montserrat','Raleway', sans-serif;
     font-weight: 600;
@@ -64,7 +68,7 @@ hr.w16 {
 
 .s-text {
     font-family: Arial, 'Montserrat', sans-serif;
-    font-size: 0.72rem;
+    font-size: 0.78rem;
     text-align: justify;
 }
 
@@ -168,4 +172,31 @@ polyline.stroke {
     stroke: black;
     fill: none;
     stroke-width: 1px;
+}
+
+a:link {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: #4b586e;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+#underline {
+    text-decoration: underline;
 }

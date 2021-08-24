@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
+body {
+    cursor: auto;
+}
+
 .head {
     text-align: left;
     font-family: 'Raleway', 'Montserrat', sans-serif;
@@ -306,4 +310,23 @@ hr.hr6 {
 
 .color {
     color: #4b586e;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #4b586e;
+    border: none;
+    outline: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: rgb(92, 40, 92);
+}
+
+a:active {
+    color: red;
 }

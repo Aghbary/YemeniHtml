@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Josefin+Sans:wght@300&display=swap');
 
+body {
+    cursor: auto;
+}
+
 .t-welcome {
     border: 1px solid #4b586e;
     border-collapse: collapse;
