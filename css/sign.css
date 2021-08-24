@@ -139,7 +139,12 @@ a:active {
     color: red;
 }
 
-.input {
+.email {
     width: 170px;
     height: 17px;
+}
+
+.password {
+    width: 170px;
+    height: 15.5px;
 }
