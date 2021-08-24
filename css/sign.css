@@ -80,10 +80,6 @@ fieldset {
     text-align: center;
 }
 
-.cap {
-    text-transform: capitalize;
-}
-
 .sign {
     margin-bottom: 15px;
     width: 120px;
