@@ -12,7 +12,7 @@ body {
     margin: auto;
 }
 
-.div-welcome {
+div {
     margin: auto;
     vertical-align: middle;
     text-align: center;
@@ -47,4 +47,8 @@ hr.w20 {
 
 #margin-t {
     margin-top: 15%;
+}
+
+input {
+    cursor: pointer;
 }

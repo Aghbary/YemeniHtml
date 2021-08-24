@@ -330,3 +330,7 @@ a:hover {
 a:active {
     color: red;
 }
+
+.cursor {
+    cursor: pointer;
+}
